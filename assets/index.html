@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaqueries.css"/>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Abhay Sodha</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <nav id="hamburger-nav">
+        <div class="logo">Abhay Sodha</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="ToggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>            
+            <div class="menu-links">
+                <li><a href="#about" onclick="ToggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="ToggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="ToggleMenu()">Projects</a></li>
+                <li><a href="#contacts" onclick="ToggleMenu()">Contacts</a></li>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./profile_img.jpg" alt="Abhay Sodha Profile Picture"></div>
+            <div class="section_text">
+                <p class="section_text_p1">Hello,I'm</p>
+                    <h1 class="title">Abhay Sodha</h1>
+                    <p class="section_text_p2">Full Stack Developer</p>
+                    <div class="btn-container">
+                        <button 
+                        class="btn btn-color-2"
+                        onclick="window.open('./Abhay_resume.pdf')">Download Resume</button>
+
+                        <button 
+                        class="btn btn-color-2"
+                        onclick="location.href='./#contacts'">Conatac Info</button>
+
+
+                    </div>
+
+                    <div id="social-container">
+                        <img 
+                        src="./linkedin.png" 
+                        alt="MY linkedin Profile"
+                        class="icon"
+                        onclick="location.href='https://in.linkedin.com/in/abhay-sodha-456a53258'"
+                        />
+
+                        <img 
+                        src="./github.png" 
+                        alt="My Github Profile"
+                        class="icon"
+                        onclick="location.href='https://github.com/abhaysodha'"/>
+                    </div>
+
+                
+            </div>
+    </section>
+
+
+
+
+    <section id="about">
+            <p class="section_text_p1">Get To Know More</p>
+            <h1 class="title">Aboute me</h1>
+            <div class="section-container">
+                <div class="section_pic-container">
+                    <img src="./profile_picture.jpg" alt="profile picture" class="about-pic">
+                </div>
+                <div class="about-detail-container">
+                    <div class="about-container">
+                        <div class="detail-container">
+                            <img src="./experience.png" alt="experiance icon" class="icon">
+                            
+                            <h3>Experience</h3>
+                            <p>1+ years<br/>Full Stack Developer</p>
+                            </div>
+                            <div class="detail-container">
+                                <img src="./education.png" alt="education icon" class="icon">
+                                
+                                <h3>Education</h3>
+                                <p>B.tech in Information Technology<br/></p>
+                            </div>
+                        </div>
+                    <div class="text-container">
+                            <p>As a dedicated student pursuing a B.Tech in Information Technology, my academic journey has been a vibrant exploration into the world of technology. Fueled by a passion for creating innovative digital solutions, I've embraced the role of a student developer with fervor. Throughout my education, I've delved deep into the intricate layers of web development, mastering languages, frameworks, and methodologies that power the digital landscape. My coursework has not just been about code; it's been a journey of crafting intuitive user experiences, solving complex problems, and embracing the art of building scalable applications. Beyond the classroom, I've eagerly embraced internships, hackathons, and personal projects to augment my learning, always seeking to push the boundaries of my knowledge. My pursuit of becoming a Full Stack Web Developer is driven by an insatiable curiosity and an unwavering commitment to mastering the art and science of crafting seamless, user-centric web solutions.</p>
+                        </div>
+                    </div>
+                </div>
+                
+    </section>
+
+
+
+
+    <section id="experience">
+            <p class="section_text_p1">Explore My</p>
+            <h1 class="title">Experience</h1>
+               <div class="experience-detail-container">
+                  <div class="about-container">
+                     <div class="detail-container">
+                       <h2 class="experience-sub-title">Software Development</h2>
+                        <div class="article-container">
+                            <article>
+                                <img src="./checkmark.png" alt="experience" class="icon">
+                                    <div>
+                                     <h3>MERN</h3>
+                                     <p>Experienced</p>
+                                    </div>
+                            
+                                <img src="./checkmark.png" alt="experience" class="icon">
+                                    <div>
+                                        <h3>Flutter</h3>
+                                        <p>Experienced</p>
+                                    </div>
+                            
+                                <img src="./checkmark.png" alt="experience" class="icon">
+                                 <div>
+                                     <h3>C++</h3>
+                                        <p>Experienced</p>
+                                 </div>
+                            
+                                <img src="./checkmark.png" alt="experience" class="icon">
+                                    <div>
+                                        <h3>Python</h3>
+                                        <p>Experienced</p>
+                                    </div>
+                           
+                                <img src="./checkmark.png" alt="experience" class="icon">
+                                    <div>
+                                        <h3>Java</h3>
+                                        <p>Experienced</p>
+                                    </div>
+                            
+                                <img src="./checkmark.png" alt="experience" class="icon">
+                                    <div>
+                                        <h3>Oracal & SQL</h3>
+                                        <p>Experienced</p>
+                                    </div>
+                            </article>
+                        </div>
+                     </div>
+
+
+                     <div class="detail-container">
+                        <h2 class="experience-sub-title">Software Development</h2>
+                         <div class="article-container">
+                         <article>
+                             <img src="./checkmark.png" alt="experience" class="icon">
+                                 <div>
+                                     <h3>PowerBI</h3>
+                                     <p>Experienced</p>
+                                 </div>
+                             
+                             <img src="./checkmark.png" alt="experience" class="icon">
+                                 <div>
+                                     <h3>Firebase</h3>
+                                     <p>Experienced</p>
+                                 </div>
+                             
+                             <img src="./checkmark.png" alt="experience" class="icon">
+                                 <div>
+                                     <h3>Linux</h3>
+                                     <p>Experienced</p>
+                                 </div>
+                             
+                             <img src="./checkmark.png" alt="experience" class="icon">
+                                 <div>
+                                     <h3>Git</h3>
+                                     <p>Experienced</p>
+                                 </div>
+                            
+                             <img src="./checkmark.png" alt="experience" class="icon">
+                                 <div>
+                                     <h3>Version Control</h3>
+                                     <p>Experienced</p>
+                                 </div>
+                             
+                             <img src="./checkmark.png" alt="experience" class="icon">
+                                 <div>
+                                     <h3>MongoDB</h3>
+                                     <p>Experienced</p>
+                                 </div>
+                         </article>
+                      </div>
+                 </div>
+            </div>
+        </div>
+    
+    </section>
+
+
+    <section id="projects">
+        <p class="section_text_p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-detail-container">
+        <div class="about-container">
+            <div class="detail-container color-container">
+                <div class="article-container">
+                    <img
+                    src="./project-1.png"
+                    alt="project"
+                    class="project-image"
+                    width="300"
+                    height="200" 
+                    />
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <div class="btn-container">
+                        <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/abhaysodha/chatgptclone'">Github
+                        </button>
+
+                        <button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/abhaysodha/chatgptclone'">Livedemo
+                        </button>
+                    </div>
+                </div>
+                
+
+                <div class="detail-container color-container">
+                    <div class="article-container">
+                        <img
+                        src="./project-2.png"
+                        alt="project 2"
+                        class="project-image"
+                        width="300"
+                        height="200" 
+                        />
+                        </div>
+                        <h2 class="experience-sub-title project-title">Project Two</h2>
+                        <div class="btn-container">
+                            <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/abhaysodha/chatgptclone'">Github
+                            </button>
+    
+                            <button
+                            class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/abhaysodha/chatgptclone'">Livedemo
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="detail-container color-container">
+                        <div class="article-container">
+                            <img
+                            src="./project-3.png"
+                            alt="project 3"
+                            class="project-image"
+                            width="300"
+                            height="200" 
+                            />
+                            </div>
+                            <h2 class="experience-sub-title project-title">Project Three</h2>
+                            <div class="btn-container">
+                                <button
+                                class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://github.com/abhaysodha/chatgptclone'">Github
+                                </button>
+        
+                                <button
+                                class="btn btn-color-2 project-btn"
+                                onclick="location.href='https://github.com/abhaysodha/chatgptclone'">Livedemo
+                                </button>
+                            </div>
+                        </div> 
+                    </div>          
+                </div>  
+
+            </section>
+
+    <section id="contacts">
+        <p class="section_text_p1">Get In Touch</p>
+        <h1 class="title">Contact me</h1>
+        <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+            <img
+            src="./email.png"
+            alt="Email Icon"
+            class="icon contact-info"
+            />
+            <p><a href="mailto:abhaysodha6123@gmail.com">abhaysodha6123@gamil.com</a></p>
+        </div>
+       
+        </div>
+    </div>    
+
+    </section>    
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                <li><a href="#about" onclick="ToggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="ToggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="ToggleMenu()">Projects</a></li>
+                <li><a href="#contacts" onclick="ToggleMenu()">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Abhay Sodha. All Rights Reserved.</p>
+    </footer>   
+    <script src="script.js"></script>
+</body>
+</html>
