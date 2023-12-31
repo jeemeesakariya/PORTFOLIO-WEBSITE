@@ -362,7 +362,7 @@ article.icon{
 
 #projects{
     height: fit-content;
-    margin-top: 210px;
+    margin-top: 150px;
     position: relative;
   }
 
@@ -374,8 +374,8 @@ article.icon{
 .project-img{
 
     border-radius: 2 rem;
-    height: 90%;
-    width: 90%;
+    height: 100%;
+    width: 100%;
 }
 
 .project-title{
