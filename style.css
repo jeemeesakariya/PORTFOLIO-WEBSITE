@@ -232,6 +232,10 @@ section{
     border-radius: 2rem;
 }
 
+.jeemee_pic{
+    border-radius: 2rem;
+}
+
 .btn-color-1,
 .btn-color-2{
     border: rgb(53,53,53) 0.1rem solid;
@@ -267,6 +271,7 @@ section{
 
 #about{
     position: relative;
+    margin-top: 60px;
 }
 
 .about-pic{
@@ -326,6 +331,7 @@ section{
 
 #experience{
     position: relative;
+    margin-top: 95px;
     z-index: 1;
 }
 
@@ -367,7 +373,7 @@ article.icon{
 
 #projects{
     height: fit-content;
-    margin-top: 210px;
+    margin-top: 300px;
     position: relative;
   }
 
