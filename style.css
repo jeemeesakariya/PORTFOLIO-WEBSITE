@@ -284,8 +284,8 @@ section{
     display: flex;
 }
 
-.about-pic{
-    border-radius: 2rerm;
+.project-image{
+    border-radius: 5rerm;
 }
 
 .arrow{
@@ -299,7 +299,7 @@ section{
     flex: 1;
     background: white;
     border-radius: 2rem;
-    border: rgb(53,53,53) 0.1rem solid;
+    border: rgb(53,53,53) 0.2rem solid;
     border-color: rgb(163,163,163);
     text-align: center;
     width: 300px;
@@ -373,7 +373,7 @@ article.icon{
 
 .project-img{
 
-    border-radius: 2 rem;
+    border-radius: 2rem;
     height: 100%;
     width: 100%;
 }
@@ -392,8 +392,8 @@ article.icon{
 #contact{
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    height: 70vh;
+    flex-direction:column;
+    height: 60vh;
 }
 
 .contact-info-upper-container{
